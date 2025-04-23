@@ -6,7 +6,7 @@ class Process{
     List<Process> waitingFor;
 
     public Process(int id) {
-        this.id = id;
+        this.id = id;                                                   
         this.privateLabel = id;
         this.publicLabel = id;
         this.waitingFor = new ArrayList<>();
